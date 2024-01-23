@@ -1,10 +1,13 @@
 
-import { Navbar } from "./components"
+import { Navbar, Herosection } from "./components"
 
 export default function App() {
   return (
     <main>
-     <Navbar />
+     <section  className="bg-bg-pattern">
+      <Navbar />
+      <Herosection />
+     </section>
     </main>
   )
 }

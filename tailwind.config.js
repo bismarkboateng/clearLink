@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily: {
         Inter: ['Inter', 'sans-serif']
+      },
+      backgroundImage: {
+        'bg-pattern': "url('/src/assets/images/background-pattern.png')"
       }
     },
   },
