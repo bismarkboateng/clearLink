@@ -19,3 +19,11 @@ export { default as Monitor } from "./images/monitor.svg"
 export { default as faceSmile } from "./images/face-smile.svg"
 export { default as Messages } from "./images/message.svg"
 export { default as Settings } from "./images/settings.svg"
+
+// companies
+export { default as Automattic } from "./images/automattic.png"
+export { default as Coinbase } from "./images/coinbase.png"
+export { default as Dropbox } from "./images/dropbox.png"
+export { default as Intercom } from "./images/intercom.png"
+export { default as Marvel } from "./images/marvel.png"
+export { default as Shopify } from "./images/shopify.png"

@@ -1,9 +1,9 @@
 import { Bot, Avatar, Rating } from "../../assets"
-import { imageData, icons } from "./data"
+import { imageData, icons } from "../../../utils/data"
 
 export default function index() {
   return (
-    <section className="flex flex-row items-center xl:w-[87.5%] mx-auto
+    <section className="flex flex-row items-center lg:w-[87.5%] mx-auto
       mt-32">
       <section className="w-[50%] mr-auto">
        <h1 className="text-[58px] font-Inter text-gray-800 font-medium
@@ -44,7 +44,8 @@ export default function index() {
        </div>
       </section>
 
-      <section className="bg-blue-50 grid grid-cols-3 gap-x-3 gap-y-3 p-8
+      <section className="bg-blue-50 border border-blue-100 grid grid-cols-3
+      gap-x-3 gap-y-3 p-8
         rounded w-[40%]">
         {imageData.map(image => (
           <img

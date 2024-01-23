@@ -3,7 +3,10 @@ import {
     Emoji4, Emoji5, Emoji6,
     Microphone, Video, Monitor,
     faceSmile, Messages, Settings,
-  } from "../../assets"
+
+    Automattic, Coinbase, Dropbox,
+    Intercom, Marvel, Shopify,
+  } from "../src/assets"
 
 
 export const imageData = [
@@ -23,3 +26,12 @@ export const icons = [
   { image: Messages, id: Math.random()},
   { image: Settings, id: Math.random()},
 ]
+
+export const companies = [
+    { image: Shopify, id: Math.random()},
+    { image: Coinbase, id: Math.random()},
+    { image: Dropbox, id: Math.random()},
+    { image: Intercom, id: Math.random()},
+    { image: Marvel, id: Math.random()},
+    { image: Automattic, id: Math.random()},
+  ]
