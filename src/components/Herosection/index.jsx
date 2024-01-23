@@ -1,13 +1,13 @@
 import { Bot, Avatar, Rating } from "../../assets"
-import { imageData } from "./image-data"
+import { imageData, icons } from "./data"
 
 export default function index() {
   return (
     <section className="flex flex-row items-center xl:w-[87.5%] mx-auto
       mt-32">
-      <section className="w-[50%] border border-red-500 mr-auto">
+      <section className="w-[50%] mr-auto">
        <h1 className="text-[58px] font-Inter text-gray-800 font-medium
-        leading-[60px]">
+        leading-[60px] w-[100%]">
         Uniting the world,one video call at a time
        </h1>
        <p className="text-gray-500 font-Inter text-base w-[75%] leading-6
@@ -41,13 +41,11 @@ export default function index() {
             from 3,000+ reviews
           </p>
         </div>
-        
        </div>
-
       </section>
 
-      <section className="bg-blue-50 border border-red-500
-      grid grid-cols-3 gap-x-3 gap-y-3 p-8">
+      <section className="bg-blue-50 grid grid-cols-3 gap-x-3 gap-y-3 p-8
+        rounded w-[40%]">
         {imageData.map(image => (
           <img
             src={image.image}
@@ -55,6 +53,15 @@ export default function index() {
             className="w-[128px] rounded-xl"
           />
         ))}
+        <div className="grid grid-cols-6 gap-x-10 ml-20 mt-3">
+          {icons.map(icon => (
+            <div className="w-[35px] h-[35px] bg-white flex
+              justify-center items-center rounded-full border border-blue-100
+              " key={icon.id}>
+              <img src={icon.image} alt="microphone" className="cursor-pointer" />
+            </div>
+          ))}
+        </div>
       </section>
     </section>
   )
