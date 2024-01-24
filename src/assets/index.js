@@ -35,3 +35,10 @@ export { default as Calender } from "./images/calender.png"
 export { default as Security } from "./images/security.png"
 
 export { default as ImageGrid } from "./images/image-grid.png"
+
+
+// shopify component
+export { default as LeftArrow } from "./images/left-arrow.png"
+export { default as RightArrow } from "./images/right-arrow.png"
+export { default as ShopifyImage } from "./images/shopify-image.png"
+export { default as AvatarIcon } from "./images/Avatar.png"
