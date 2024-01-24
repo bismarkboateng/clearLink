@@ -1,7 +1,7 @@
 
 import { 
   Navbar, Herosection, Companies,
-  Choose, Shopify
+  Choose, Shopify, FAQ
 } from "./components"
 
 export default function App() {
@@ -14,6 +14,7 @@ export default function App() {
      <Companies />
      <Choose />
      <Shopify />
+     <FAQ />
     </main>
   )
 }

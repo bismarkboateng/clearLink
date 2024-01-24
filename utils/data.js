@@ -77,3 +77,31 @@ export const chooseData = [
     id: Math.random()
   },
 ]
+
+export const dropDown = [
+  {
+    title: "How many participants can join a ClearLink video conference?",
+    id: Math.random(),
+  },
+  {
+    title: "Can I use ClearLink on multiple devices?",
+    id: Math.random(),
+  },
+  {
+    title: "Is ClearLink compatible with other video conferencing platforms?",
+    id: Math.random(),
+  },
+  {
+    title: "How does ClearLink ensure the security of my video conferences?",
+    id: Math.random(),
+  },
+  {
+    title: "Do I need to download any software to use ClearLink?",
+    id: Math.random(),
+  },
+  {
+    title: "What kind of customer support does ClearLink provide?",
+    id: Math.random(),
+  },
+
+]
