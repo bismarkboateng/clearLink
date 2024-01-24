@@ -1,3 +1,5 @@
 export { default as Navbar } from "./Navbar"
 export { default as Herosection } from "./Herosection"
 export { default as Companies } from "./Companies"
+export { default as Choose } from "./Choose"
+export { default as ChooseCard } from "./ChooseCard"

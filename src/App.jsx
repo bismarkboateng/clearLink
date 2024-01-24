@@ -1,5 +1,8 @@
 
-import { Navbar, Herosection, Companies } from "./components"
+import { 
+  Navbar, Herosection, Companies,
+  Choose
+} from "./components"
 
 export default function App() {
   return (
@@ -9,6 +12,7 @@ export default function App() {
       <Herosection />
      </section>
      <Companies />
+     <Choose />
     </main>
   )
 }

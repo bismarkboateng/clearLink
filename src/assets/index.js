@@ -27,3 +27,11 @@ export { default as Dropbox } from "./images/dropbox.png"
 export { default as Intercom } from "./images/intercom.png"
 export { default as Marvel } from "./images/marvel.png"
 export { default as Shopify } from "./images/shopify.png"
+
+// choose component
+export { default as videoIcon } from "./images/video.png"
+export { default as Audio } from "./images/Audio.png"
+export { default as Calender } from "./images/calender.png"
+export { default as Security } from "./images/security.png"
+
+export { default as ImageGrid } from "./images/image-grid.png"

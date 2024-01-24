@@ -6,6 +6,9 @@ import {
 
     Automattic, Coinbase, Dropbox,
     Intercom, Marvel, Shopify,
+
+    videoIcon, Audio, Calender,
+    Security, ImageGrid,
   } from "../src/assets"
 
 
@@ -34,4 +37,43 @@ export const companies = [
     { image: Intercom, id: Math.random()},
     { image: Marvel, id: Math.random()},
     { image: Automattic, id: Math.random()},
-  ]
+]
+
+export const chooseData = [
+  {
+    icon: videoIcon,
+    title: "Crystal-clear HD video",
+    desc: `
+    No more pixelation or blurriness – just stunning,
+    lifelike clarity that brings your team closer in meetings.
+    `,
+    id: Math.random()
+  },
+  {
+    icon: Audio,
+    title: "Noise-canceling audio",
+    desc: `
+    Say goodbye to distractions with our advanced audio tech for crisp,
+    interruption-free conversations.
+    `,
+    id: Math.random()
+  },
+  {
+    icon: Calender,
+    title: "Scheduling made easy",
+    desc: `
+    Streamline your agenda with ClearLink's intuitive scheduling.
+    Set up meetings, send invitations, and receive reminders in one place.
+    `,
+    id: Math.random()
+  },
+  {
+    icon: Security,
+    title: "Bank-grade security",
+    desc: `
+    Your privacy is our priority with bank-grade security protocols safeguarding 
+    your meetings and data from unwanted intruders.
+    `,
+    id: Math.random()
+  },
+]
