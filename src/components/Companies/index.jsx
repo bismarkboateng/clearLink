@@ -6,7 +6,7 @@ import {
 
 export default function index() {
   return (
-    <section className="lg:w-[87.5%] mx-auto mt-24 flex flex-col
+    <section className="lg:w-[87.5%] mx-auto mt-32 flex flex-col
      items-center">
      <p className="text-gray-600 text-sm font-Inter mb-7">
       Join 1,500+ companies already video conferencing the ClearLink way

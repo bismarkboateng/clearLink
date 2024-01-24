@@ -45,8 +45,7 @@ export default function index() {
       </section>
 
       <section className="bg-blue-50 border border-blue-100 grid grid-cols-3
-      gap-x-3 gap-y-3 p-8
-        rounded w-[40%]">
+      gap-x-3 gap-y-3 p-8 rounded w-[40%] shadow-avatar-shadow">
         {imageData.map(image => (
           <img
             src={image.image}

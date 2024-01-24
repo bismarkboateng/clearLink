@@ -15,6 +15,9 @@ module.exports = {
       },
       backgroundImage: {
         'bg-pattern': "url('/src/assets/images/background-pattern.png')"
+      },
+      boxShadow: {
+        'avatar-shadow': '0 7px 20px -4px #10182824'
       }
     },
   },

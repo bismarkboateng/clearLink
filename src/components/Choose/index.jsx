@@ -1,11 +1,11 @@
 
 import { ChooseCard } from ".."
 import { chooseData } from "../../../utils/data"
-import { ImageGrid } from "../../assets"
+import { ImageGrid, Vector } from "../../assets"
 
 export default function index() {
   return (
-    <section className="mt-32 lg:w-[87.5%] mx-auto">
+    <section className="relative mt-32 lg:w-[87.5%] mx-auto">
      <p className="text-blue-700 font-Inter leading-6 text-[13px] font-semibold">
       The ClearLink Advantage
      </p>
@@ -17,6 +17,12 @@ export default function index() {
       In a world where connection is everything,
       ClearLink takes the lead. Our cutting-edge video conferencing app offers:
      </p>
+
+     <img
+      src={Vector}
+      alt="vector line"
+      className="absolute top-0 right-[20%]"
+    />
 
      <section className="w-[100%] mt-14 flex flex-row justify-between
       gap-24">

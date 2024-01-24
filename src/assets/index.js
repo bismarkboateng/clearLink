@@ -52,3 +52,6 @@ export { default as CommImage } from "./images/comm-image.png"
 
 export { default as GooglePlay } from "./images/googlePlay.png"
 export { default as AppStore } from "./images/appStore.png"
+
+// vector line
+export { default as Vector } from "./images/Vector.png"

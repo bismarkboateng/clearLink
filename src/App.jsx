@@ -14,10 +14,10 @@ import {
 export default function App() {
   return (
     <main>
-     <section className="bg-bg-pattern">
-      <Navbar />
-      <Herosection />
-     </section>
+     <div className="bg-bg-pattern absolute z-[-1]
+     top-0 left-0 w-full h-[115vh]" />
+     <Navbar />
+     <Herosection />
      <Companies />
      <Choose />
      <Shopify />
