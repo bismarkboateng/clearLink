@@ -45,3 +45,10 @@ export { default as AvatarIcon } from "./images/Avatar.png"
 
 export { default as Remove } from "./images/removeIcon.png"
 export { default as Add } from "./images/addIcon.png"
+
+// communication 
+export { default as CheckIcon } from "./images/checkIcon.png"
+export { default as CommImage } from "./images/comm-image.png"
+
+export { default as GooglePlay } from "./images/googlePlay.png"
+export { default as AppStore } from "./images/appStore.png"

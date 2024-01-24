@@ -3,7 +3,7 @@ import { Logo } from "../../assets"
 
 export default function index() {
   return (
-    <nav className="py-[8px] px-[15px] px-8 xl:w-[90%] mx-auto mt-8
+    <nav className="py-[8px] px-[15px] px-8 lg:w-[90%] mx-auto mt-8
     flex flex-row items-center bg-gray-100 rounded-full border">
      <div className="flex flex-row items-center gap-2 mr-auto">
       <div className="w-[26px] h-[28px]">

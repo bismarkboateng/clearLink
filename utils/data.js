@@ -105,3 +105,36 @@ export const dropDown = [
   },
 
 ]
+
+
+export const products = [
+  { title: "Overview", id: Math.random()},
+  { title: "Features", id: Math.random()},
+  { title: "Solutions", id: Math.random()},
+  { title: "Tutorials", id: Math.random()},
+  { title: "Pricing", id: Math.random()},
+]
+
+export const company = [
+  { title: "About us", id: Math.random()},
+  { title: "Careers", id: Math.random()},
+  { title: "Press", id: Math.random()},
+  { title: "News", id: Math.random()},
+  { title: "Contact", id: Math.random()},
+]
+
+export const resources = [
+  { title: "Blog", id: Math.random()},
+  { title: "Events", id: Math.random()},
+  { title: "Help Centre", id: Math.random()},
+  { title: "Tutorials", id: Math.random()},
+  { title: "Support", id: Math.random()},
+]
+
+export const legal = [
+  { title: "Terms", id: Math.random()},
+  { title: "Privacy", id: Math.random()},
+  { title: "Cookies", id: Math.random()},
+  { title: "Licenses", id: Math.random()},
+  { title: "Contact", id: Math.random()},
+]
